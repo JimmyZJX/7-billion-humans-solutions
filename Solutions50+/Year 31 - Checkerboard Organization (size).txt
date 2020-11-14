@@ -1,0 +1,15 @@
+-- 7 Billion Humans (2212:2214M) --
+-- 31: Checkerboard Organization --
+
+a:
+if ne == printer or
+ n == printer and
+ myitem == nothing:
+	takefrom ne
+	step w,e
+endif
+step nw,sw,ne,se
+drop
+jump a
+
+
